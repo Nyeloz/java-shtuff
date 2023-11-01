@@ -1,0 +1,12 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		catPlayground cat1	= new catPlayground("Syndic", 2, "orange", "Milk and cookies");
+		cat1.playing();
+
+	}
+	
+
+}
