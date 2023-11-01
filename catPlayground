@@ -1,0 +1,22 @@
+
+public class catPlayground {
+	String name;
+	int age;
+	String fur;
+	String diet;
+	int happy = 0;
+
+
+	catPlayground(String name, int age, String fur, String diet) {
+		this.name = name;
+		this.age = age;
+		this.fur = fur;
+		this.diet = diet;
+		
+		System.out.println("Their name is: " + name + "-- age: " + age + "-- Fur color: " + fur + "-- and diet is " + diet);
+	}
+	void playing() {
+		System.out.println(this.name + " is playing!");
+		
+	}
+}
